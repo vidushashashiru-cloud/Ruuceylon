@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruu Ceylon | ආයුර්වේද සෞඛ්‍ය හා රූපලාවණ්‍ය නිෂ්පාදන</title>
+  <meta name="description" content="Ruu Ceylon - ශ්‍රී ලංකාවේ නිෂ්පාදිත ආයුර්වේද සෞඛ්‍ය හා රූපලාවණ්‍ය නිෂ්පාදන. Natural ayurvedic health and beauty products from Sri Lanka.">
+  <meta name="theme-color" content="#0d6b3d">
+  <meta property="og:title" content="Ruu Ceylon - Beauty with Nature">
+  <meta property="og:description" content="ආයුර්වේද සෞඛ්‍ය හා රූපලාවණ්‍ය නිෂ්පාදන | Ayurvedic health and beauty products">
+  <meta property="og:image" content="images/logo.png">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700&family=Noto+Serif+Sinhala:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-row wrap">
+    <a class="brand" href="#" aria-label="Ruu Ceylon">
+      <img src="images/logo.png" alt="Ruu Ceylon" width="140" height="100">
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#products" data-ui="navProducts">නිෂ්පාදන</a>
+      <a href="#reviews" data-ui="navReviews">අදහස්</a>
+      <a href="#about" data-ui="navAbout">අප ගැන</a>
+      <a href="#contact" data-ui="navContact">සම්බන්ධ වන්න</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="si" aria-pressed="true">සිංහල</button>
+      <button type="button" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</header>
+
+<section class="stage" aria-label="Special offers and awards">
+  <div class="slider" id="slider" aria-roledescription="carousel"></div>
+  <div class="s-bar"><div class="s-bar-in wrap"><div class="s-text" id="sText" aria-live="off"></div><div class="dots" id="sDots"></div></div></div>
+</section>
+
+<section class="intro wrap">
+  <h1 id="brandTagline"></h1>
+  <p id="brandMotto"></p>
+</section>
+
+<main>
+  <section id="products" class="block wrap">
+    <div class="block-head">
+      <h2 data-ui="productsTitle">අපේ නිෂ්පාදන</h2>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
+
+    <div class="tools">
+      <label class="search">
+        <span class="sr" data-ui="search">නිෂ්පාදනයක් සොයන්න</span>
+        <input type="search" id="q" data-ui-ph="search" placeholder="නිෂ්පාදනයක් සොයන්න" autocomplete="off">
+      </label>
+      <label class="sort">
+        <span class="sr" data-ui="sort">පිළිවෙළ</span>
+        <select id="sort">
+          <option value="default" data-ui="sortDefault">සාමාන්‍ය</option>
+          <option value="low" data-ui="sortLow">මිල අඩු සිට වැඩි</option>
+          <option value="high" data-ui="sortHigh">මිල වැඩි සිට අඩු</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden></p>
+  </section>
+
+  <section id="reviews" class="block wrap">
+    <div class="block-head">
+      <h2 data-ui="reviewsTitle">ඔබේ අදහස් අපට වැදගත්</h2>
+    </div>
+    <p class="lead" data-ui="reviewsIntro">නිෂ්පාදනයක් භාවිතා කළා නම්, ඔබේ අත්දැකීම අනිත් අයට කියන්න.</p>
+    <div class="reviews-grid">
+      <div class="panel" id="mainFormHost"></div>
+      <div class="panel">
+        <h3 data-ui="recentComments">අලුත්ම අදහස්</h3>
+        <div id="recent" class="comment-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="block wrap about">
+    <h2 id="aboutTitle"></h2>
+    <p id="aboutText"></p>
+  </section>
+</main>
+
+<footer id="contact" class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-logo"><img src="images/logo.png" alt="Ruu Ceylon" width="120" height="86"></div>
+      <p class="foot-note" id="footNote"></p>
+    </div>
+    <div>
+      <h2 data-ui="contactTitle">අප හා සම්බන්ධ වන්න</h2>
+      <ul class="contact-list" id="contactList"></ul>
+    </div>
+  </div>
+  <p class="copy wrap"><span id="year"></span> Ruu Ceylon. <span data-ui="rights">සියලු හිමිකම් ඇවිරිණි.</span></p>
+</footer>
+
+<dialog id="pm" class="pm" aria-labelledby="pmTitle">
+  <div class="pm-inner" id="pmBody"></div>
+</dialog>
+
+<script src="js/app.js"></script>
+</body>
+</html>

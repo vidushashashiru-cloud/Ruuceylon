@@ -1,0 +1,7 @@
+{
+  "name": "ruuceylon-showroom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ruu Ceylon showroom website (static site + tiny comments API for Vercel)",
+  "engines": { "node": ">=18" }
+}
