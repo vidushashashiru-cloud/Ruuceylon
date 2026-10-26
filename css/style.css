@@ -216,3 +216,15 @@ button { cursor: pointer; }
   html { scroll-behavior: auto; }
   .slide, .card, .pm[open] { transition: none; animation: none; }
 }
+
+/* ---- comment photos ---- */
+.photo-pick { margin-bottom: 12px; }
+.photo-pick > span { display: block; font-weight: 600; font-size: 14.5px; margin-bottom: 4px; }
+.photo-pick input[type=file] { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.photo-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 8px 14px; border: 1.5px dashed var(--leaf); border-radius: 10px; color: var(--leaf-deep); font-weight: 600; cursor: pointer; background: #fff; }
+.photo-pick input:focus-visible + .photo-btn { outline: 3px solid var(--turmeric); }
+.photo-prev { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.photo-prev[hidden] { display: none; }
+.photo-prev img { width: 84px; height: 84px; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); }
+.photo-prev button { background: none; border: 0; color: #9b1c2e; font-weight: 600; text-decoration: underline; padding: 8px; }
+.c-img { display: block; margin-top: 8px; max-width: 100%; max-height: 320px; border-radius: 10px; border: 1px solid var(--line); cursor: zoom-in; }
