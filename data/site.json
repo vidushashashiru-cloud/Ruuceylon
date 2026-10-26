@@ -30,24 +30,14 @@
       "si": "විශේෂ දීමනා",
       "en": "Special offers"
     },
-    "intervalSeconds": 5,
+    "intervalSeconds": 10,
     "items": [
-      {
-        "image": "images/slides/01_Delum_Skin_Glow_Pack.jpg",
-        "title": {
-          "si": "ඩෙලුම් ස්කින් ග්ලෝ පැකේජය",
-          "en": "Delum Skin Glow Pack"
-        },
-        "caption": {
-          "si": "සමට දීප්තිය ලබා දෙන විශේෂ දීමනා පැකේජය",
-          "en": "A special pack for glowing skin"
-        },
-        "product": "delum-skin-glow-pack",
-        "label": {
-          "si": "දීමනා",
-          "en": "Offer"
-        }
-      },
+{
+  "image": "images/awards/award-1.jpg",
+  "title": { "si": "සම්මානයේ නම", "en": "Award name" },
+  "caption": { "si": "කෙටි විස්තරයක්", "en": "Short note" },
+  "label": { "si": "සම්මානය", "en": "Award" }
+},
       {
         "image": "images/slides/03_Collagen_offer.jpg",
         "title": {
