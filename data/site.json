@@ -38,22 +38,12 @@
   "caption": { "si": "මෙවරත් වසරේ විශිෂ්ටතම රූපවලාන්‍ය සන්නාමය ලෙස අපව මෙවරත් ඔසවා තැබූ ඔබට ස්තූතියි !", "en": "" },
   "label": { "si": "සම්මානය", "en": "Award" }
 },
-      {
-        "image": "images/slides/03_Collagen_offer.jpg",
-        "title": {
-          "si": "කොලජන් දීමනාව",
-          "en": "Collagen offer"
-        },
-        "caption": {
-          "si": "කොලජන් නිෂ්පාදන ඇතුළත් විශේෂ පැකේජය",
-          "en": "Special package with collagen products"
-        },
-        "product": "collagen-offer",
-        "label": {
-          "si": "දීමනා",
-          "en": "Offer"
-        }
-      },
+{
+  "image": "images/awards/",
+  "title": { "si": "වසරේ විශිෂ්ටතම රූපවලාන්‍ය සන්නාමය 2024", "en": "ICONIC BRAND OF THE YEAR 2024" },
+  "caption": { "si": "වසරේ විශිෂ්ටතම රූපවලාන්‍ය සන්නාමය ලෙස අපව ඔසවා තැබූ ඔබට ස්තූතියි !", "en": "" },
+  "label": { "si": "සම්මානය", "en": "Award" }
+},
       {
         "image": "images/slides/04_Ruuceylon_carrot_capsule_offer.jpg",
         "title": {
