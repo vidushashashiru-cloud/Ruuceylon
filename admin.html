@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin | Ruu Ceylon comments</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { background: var(--paper); }
+    .adm { width: min(820px, 100% - 28px); margin: 24px auto 60px; }
+    .adm h1 { font-size: 24px; margin-bottom: 4px; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
+    .row input { flex: 1; min-width: 200px; padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 10px; min-height: 46px; }
+    .tabs { display: flex; gap: 8px; margin: 10px 0 14px; }
+    .item { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+    .item .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 14px; color: var(--muted); }
+    .item .meta b { color: var(--ink); font-size: 15px; }
+    .item p { margin: 6px 0 10px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .item .acts { display: flex; gap: 8px; flex-wrap: wrap; }
+    .item .btn { min-height: 38px; padding: 6px 14px; font-size: 14px; }
+    .btn.del { background: #fff; color: #9b1c2e; border: 1.5px solid #e3b4bb; }
+    .pill { font-size: 12.5px; font-weight: 700; padding: 1px 10px; border-radius: 999px; }
+    .pill.pending { background: #fff1cc; color: #7a5200; }
+    .pill.approved { background: var(--leaf-soft); color: var(--leaf-deep); }
+  </style>
+</head>
+<body>
+<main class="adm">
+  <a href="./"><img src="images/logo.png" alt="Ruu Ceylon" style="height:56px;width:auto"></a>
+  <h1>අදහස් කළමනාකරණය / Manage comments</h1>
+  <p class="muted">Vercel හි ඔබ දුන් ADMIN_PASSWORD එක මෙතැන ඇතුළත් කරන්න. / Enter the ADMIN_PASSWORD you set in Vercel.</p>
+  <form class="row" id="login">
+    <input type="password" id="pw" placeholder="Password" autocomplete="current-password" required>
+    <button class="btn" type="submit">ඇතුල් වන්න / Open</button>
+  </form>
+  <div id="msg" role="status"></div>
+  <div class="tabs" id="tabs" hidden>
+    <button class="chip" type="button" data-f="pending" aria-pressed="true">අනුමැතිය බලාපොරොත්තුවෙන් / Waiting</button>
+    <button class="chip" type="button" data-f="approved" aria-pressed="false">පෙන්වන ඒවා / Showing</button>
+  </div>
+  <div id="list"></div>
+</main>
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  let all = [], filter = 'pending', names = {};
+  const say = (t, bad) => { const m = $('#msg'); m.className = t ? 'form-msg ' + (bad ? 'bad' : 'ok') : ''; m.textContent = t || ''; };
+  const pw = () => sessionStorage.getItem('rc_admin') || '';
+
+  async function call(method, body) {
+    const r = await fetch('/api/admin', { method, headers: { 'Content-Type': 'application/json', 'x-admin-password': pw() }, body: body ? JSON.stringify(body) : undefined });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || r.status);
+    return j;
+  }
+  async function load() {
+    try {
+      say('');
+      all = (await call('GET')).comments;
+      $('#tabs').hidden = false;
+      render();
+    } catch (e) {
+      $('#tabs').hidden = true; $('#list').replaceChildren();
+      say(e.message === 'wrong_password' ? 'Password වැරදියි. / Wrong password.'
+        : e.message === 'not_configured' ? 'Admin තවම සකසා නැහැ (ADMIN_PASSWORD සහ Redis database එක Vercel හි එක් කරන්න). / Not set up yet (add ADMIN_PASSWORD and the Redis database in Vercel).'
+        : 'Error: ' + e.message, true);
+    }
+  }
+  function render() {
+    const rows = all.filter((c) => c.status === filter);
+    $('#list').replaceChildren(...(rows.length ? rows.map(item) : [Object.assign(document.createElement('p'), { className: 'muted', textContent: 'කිසිවක් නැහැ. / Nothing here.' })]));
+  }
+  function item(c) {
+    const d = document.createElement('div'); d.className = 'item';
+    const meta = document.createElement('div'); meta.className = 'meta';
+    const b = document.createElement('b'); b.textContent = c.name;
+    const st = document.createElement('span'); st.className = 'stars'; st.textContent = '★'.repeat(c.rating) + '☆'.repeat(5 - c.rating);
+    const pr = document.createElement('span'); pr.textContent = c.product;
+    const dt = document.createElement('span'); dt.textContent = new Date(c.date).toLocaleString();
+    const pill = document.createElement('span'); pill.className = 'pill ' + c.status; pill.textContent = c.status;
+    meta.append(b, st, pr, dt, pill);
+    const p = document.createElement('p'); p.textContent = c.text;
+    const acts = document.createElement('div'); acts.className = 'acts';
+    const mk = (label, cls, action) => { const x = document.createElement('button'); x.type = 'button'; x.className = 'btn ' + cls; x.textContent = label; x.onclick = () => act(action, c.id); return x; };
+    if (c.status === 'pending') acts.append(mk('අනුමත කරන්න / Approve', '', 'approve'));
+    else acts.append(mk('සඟවන්න / Hide', 'alt', 'hide'));
+    acts.append(mk('මකන්න / Delete', 'del', 'delete'));
+    d.append(meta, p, acts); return d;
+  }
+  async function act(action, id) {
+    if (action === 'delete' && !confirm('මකන්නද? / Delete this comment?')) return;
+    try { await call('POST', { action, id }); await load(); } catch (e) { say('Error: ' + e.message, true); }
+  }
+  $('#login').addEventListener('submit', (e) => { e.preventDefault(); sessionStorage.setItem('rc_admin', $('#pw').value); load(); });
+  $('#tabs').addEventListener('click', (e) => {
+    const t = e.target.closest('button[data-f]'); if (!t) return;
+    filter = t.dataset.f;
+    document.querySelectorAll('#tabs button').forEach((x) => x.setAttribute('aria-pressed', String(x === t)));
+    render();
+  });
+  if (pw()) load();
+})();
+</script>
+</body>
+</html>
