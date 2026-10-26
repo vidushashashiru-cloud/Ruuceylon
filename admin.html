@@ -50,8 +50,8 @@
   const say = (t, bad) => { const m = $('#msg'); m.className = t ? 'form-msg ' + (bad ? 'bad' : 'ok') : ''; m.textContent = t || ''; };
   const pw = () => sessionStorage.getItem('rc_admin') || '';
 
-  async function call(method, body) {
-    const r = await fetch('/api/admin', { method, headers: { 'Content-Type': 'application/json', 'x-admin-password': pw() }, body: body ? JSON.stringify(body) : undefined });
+  async function call(method, body, qs = '') {
+    const r = await fetch('/api/admin' + qs, { method, headers: { 'Content-Type': 'application/json', 'x-admin-password': pw() }, body: body ? JSON.stringify(body) : undefined });
     const j = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(j.error || r.status);
     return j;
@@ -88,7 +88,13 @@
     if (c.status === 'pending') acts.append(mk('අනුමත කරන්න / Approve', '', 'approve'));
     else acts.append(mk('සඟවන්න / Hide', 'alt', 'hide'));
     acts.append(mk('මකන්න / Delete', 'del', 'delete'));
-    d.append(meta, p, acts); return d;
+    d.append(meta, p);
+    if (c.img) {
+      const im = document.createElement('img'); im.alt = ''; im.style.cssText = 'max-width:240px;max-height:240px;border-radius:10px;display:block;margin:0 0 10px;border:1px solid var(--line)';
+      call('GET', null, '?image=' + encodeURIComponent(c.id)).then((r) => { if (r.image) im.src = r.image; }).catch(() => {});
+      d.append(im);
+    }
+    d.append(acts); return d;
   }
   async function act(action, id) {
     if (action === 'delete' && !confirm('මකන්නද? / Delete this comment?')) return;
