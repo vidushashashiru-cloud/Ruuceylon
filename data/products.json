@@ -1,0 +1,1259 @@
+{
+ "products": [
+  {
+   "id": "delum-skin-glow-pack",
+   "name": "Delum Skin Glow Pack",
+   "price": 2000,
+   "category": "offers",
+   "desc": {
+    "si": "ඩෙලුම් සමට දීප්තිය ලබාදීමට සකස් කළ විශේෂ පැකේජය.",
+    "en": "Special pack made to give your skin a healthy glow."
+   },
+   "image": "images/products/01_Delum_Skin_Glow_Pack.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "aloe-vera-capsules-60",
+   "name": "Aloe Vera Capsules 60",
+   "price": 1700,
+   "category": "supplements",
+   "desc": {
+    "si": "කොමඩු (Aloe Vera) කැප්සියුල 60ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 60 Aloe Vera capsules."
+   },
+   "image": "images/products/02_Aloe_Vera_Capsules_60.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "collagen-offer",
+   "name": "Collagen offer",
+   "price": 5000,
+   "category": "offers",
+   "desc": {
+    "si": "කොලජන් නිෂ්පාදන ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with collagen products."
+   },
+   "image": "images/products/03_Collagen_offer.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ruuceylon-carrot-capsule-offer",
+   "name": "Ruuceylon carrot capsule offer",
+   "price": 1500,
+   "category": "offers",
+   "desc": {
+    "si": "කැරට් කැප්සියුල ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with carrot capsules."
+   },
+   "image": "images/products/04_Ruuceylon_carrot_capsule_offer.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glowing-pack-offer-tee-tree-offer",
+   "name": "Glowing pack Offer tee tree offer",
+   "price": 2000,
+   "category": "offers",
+   "desc": {
+    "si": "ටී ට්‍රී නිෂ්පාදන ඇතුළත් දීප්තිමත් සම සඳහා දීමනා පැකේජය.",
+    "en": "Offer package with Tea Tree products for glowing skin."
+   },
+   "image": "images/products/05_Glowing_pack_Offer_tee_tree_offer.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "turmeric-60-capsule",
+   "name": "Turmeric 60 Capsule",
+   "price": 1600,
+   "category": "supplements",
+   "desc": {
+    "si": "කහ (Turmeric) කැප්සියුල 60ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 60 Turmeric capsules."
+   },
+   "image": "images/products/06_Turmeric_60_Capsule.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "sudarshana-capsule",
+   "name": "Sudarshana capsule",
+   "price": 1350,
+   "category": "herbal",
+   "desc": {
+    "si": "සුදර්ශන ඖෂධීය කැප්සියුල.",
+    "en": "Sudarshana herbal capsules."
+   },
+   "image": "images/products/07_Sudarshana_capsule.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "sugar-out-capsule",
+   "name": "Sugar Out Capsule",
+   "price": 1650,
+   "category": "herbal",
+   "desc": {
+    "si": "ශුගර් අවුට් ඖෂධීය කැප්සියුල.",
+    "en": "Sugar Out herbal capsules."
+   },
+   "image": "images/products/08_Sugar_Out_Capsule.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "cinnamon-capsules-offer",
+   "name": "Cinnamon Capsules Offer",
+   "price": 1400,
+   "category": "offers",
+   "desc": {
+    "si": "කුරුඳු කැප්සියුල ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with Ceylon cinnamon capsules."
+   },
+   "image": "images/products/09_Cinnamon_Capsules_Offer.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "vitamin-c-offer",
+   "name": "Vitamin C Offer",
+   "price": 1050,
+   "category": "offers",
+   "desc": {
+    "si": "විටමින් C නිෂ්පාදන ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with Vitamin C products."
+   },
+   "image": "images/products/10_Vitamin_C_Offer.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "soap-pack",
+   "name": "Soap Pack",
+   "price": 870,
+   "category": "soap",
+   "desc": {
+    "si": "සබන් කිහිපයක් අඩංගු ඉතා ලාභදායී පැකේජය.",
+    "en": "Value pack with several soaps."
+   },
+   "image": "images/products/11_Soap_Pack.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "collagen-capsule",
+   "name": "Collagen Capsule",
+   "price": 7990,
+   "category": "supplements",
+   "desc": {
+    "si": "කොලජන් කැප්සියුල බෝතලය.",
+    "en": "Bottle of collagen capsules."
+   },
+   "image": "images/products/12_Collagen_Capsule.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "beetroot-60-capsules",
+   "name": "Beetroot 60 Capsules",
+   "price": 1850,
+   "category": "supplements",
+   "desc": {
+    "si": "බීට්රූට් කැප්සියුල 60ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 60 Beetroot capsules."
+   },
+   "image": "images/products/13_Beetroot_60_Capsules.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "beetroot-30-capsules",
+   "name": "Beetroot 30 Capsules",
+   "price": 1150,
+   "category": "supplements",
+   "desc": {
+    "si": "බීට්රූට් කැප්සියුල 30ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 30 Beetroot capsules."
+   },
+   "image": "images/products/14_Beetroot_30_Capsules.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "aloe-vera-60-capsules",
+   "name": "Aloe vera 60 Capsules",
+   "price": 2300,
+   "category": "supplements",
+   "desc": {
+    "si": "කොමඩු (Aloe Vera) කැප්සියුල 60ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 60 Aloe Vera capsules."
+   },
+   "image": "images/products/15_Aloe_vera_60_Capsules.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "aloe-vera-30-capsules",
+   "name": "Aloe vera 30 Capsules",
+   "price": 1450,
+   "category": "supplements",
+   "desc": {
+    "si": "කොමඩු (Aloe Vera) කැප්සියුල 30ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 30 Aloe Vera capsules."
+   },
+   "image": "images/products/16_Aloe_vera_30_Capsules.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "offer-acne-pack",
+   "name": "Offer Acne Pack",
+   "price": 2000,
+   "category": "offers",
+   "desc": {
+    "si": "මුහුණේ කුරුලෑ සඳහා නිෂ්පාදන ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with products for acne-prone skin."
+   },
+   "image": "images/products/17_Offer_Acne_Pack.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glowing-drink-ayurvedic-fairness-body-lotion",
+   "name": "Glowing Drink & Ayurvedic Fairness Body Lotion",
+   "price": 2100,
+   "category": "offers",
+   "desc": {
+    "si": "ග්ලෝවින් ඩ්‍රින්ක් එකත් ආයුර්වේද ෆෙයාර්නස් බොඩි ලෝෂන් එකත් එකට ලැබෙන පැකේජය.",
+    "en": "Package with the Glowing Drink and the Ayurvedic Fairness Body Lotion together."
+   },
+   "image": "images/products/18_Glowing_Drink_Ayurvedic_Fairness_Body_Lotion.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "offer-hair-care-pack",
+   "name": "Offer Hair care Pack",
+   "price": 1550,
+   "category": "offers",
+   "desc": {
+    "si": "කෙස් රැකවරණය සඳහා නිෂ්පාදන ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package with hair care products."
+   },
+   "image": "images/products/19_Offer_Hair_care_Pack.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "offer-skin-glow-pack",
+   "name": "Offer Skin Glow Pack",
+   "price": 2000,
+   "category": "offers",
+   "desc": {
+    "si": "සමේ දීප්තිය සඳහා නිෂ්පාදන ඇතුළත් විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package for glowing skin."
+   },
+   "image": "images/products/20_Offer_Skin_Glow_Pack.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "weight-gainer",
+   "name": "Weight Gainer",
+   "price": 1900,
+   "category": "supplements",
+   "desc": {
+    "si": "ශරීර බර වැඩි කරගැනීමට උදව්වන සංඝටක අඩංගු නිෂ්පාදනය.",
+    "en": "Product with ingredients that help to gain body weight."
+   },
+   "image": "images/products/21_Weight_Gainer.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "vitamin-c-capsule-30-pcs",
+   "name": "Vitamin C Capsule 30 pcs",
+   "price": 1480,
+   "category": "supplements",
+   "desc": {
+    "si": "විටමින් C කැප්සියුල 30ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 30 Vitamin C capsules."
+   },
+   "image": "images/products/22_Vitamin_C_Capsule_30_pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "active-offer-pack-2800",
+   "name": "Active offer pack 2800",
+   "price": 2800,
+   "category": "offers",
+   "desc": {
+    "si": "Active නිෂ්පාදන ඇතුළත් රු. 2,800 විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package of Active products for Rs. 2,800."
+   },
+   "image": "images/products/23_Active_offer_pack_2800.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "active-offer-pack-1500",
+   "name": "Active offer pack - 1500",
+   "price": 1500,
+   "category": "offers",
+   "desc": {
+    "si": "Active නිෂ්පාදන ඇතුළත් රු. 1,500 විශේෂ දීමනා පැකේජය.",
+    "en": "Special offer package of Active products for Rs. 1,500."
+   },
+   "image": "images/products/24_Active_offer_pack_1500.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ayurvedic-300ml-body-lotion",
+   "name": "Ayurvedic 300ml body lotion",
+   "price": 1290,
+   "category": "skin",
+   "desc": {
+    "si": "ආයුර්වේද සංඝටක සහිත 300ml බොඩි ලෝෂන් එක. සමට මෘදුවට තෙත්බව ලබාදේ.",
+    "en": "300ml body lotion with ayurvedic ingredients. Keeps skin soft and moist."
+   },
+   "image": "images/products/25_Ayurvedic_300ml_body_lotion.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "feminine-wash-200ml",
+   "name": "Feminine wash 200ml",
+   "price": 1400,
+   "category": "skin",
+   "desc": {
+    "si": "කාන්තා පෞද්ගලික සනීපාරක්ෂාව සඳහා 200ml වොෂ් එක.",
+    "en": "200ml wash for women's personal hygiene."
+   },
+   "image": "images/products/26_Feminine_wash_200ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "delum-body-lotion",
+   "name": "Delum body lotion",
+   "price": 510,
+   "category": "skin",
+   "desc": {
+    "si": "ඩෙලුම් බොඩි ලෝෂන් - සමට මෘදු බව ලබාදෙන සුළු ප්‍රමාණයේ බෝතලය.",
+    "en": "Delum body lotion in a small bottle. Keeps skin soft."
+   },
+   "image": "images/products/27_Delum_body_lotion.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "sun-cream-120g",
+   "name": "Sun cream 120g",
+   "price": 1550,
+   "category": "skin",
+   "desc": {
+    "si": "හිරු රශ්මියෙන් සම ආරක්ෂා කරගැනීමට 120g සන් ක්‍රීම් එක.",
+    "en": "120g sun cream to protect your skin from the sun."
+   },
+   "image": "images/products/28_Sun_cream_120g.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "slim-drink-100g",
+   "name": "Slim drink 100g",
+   "price": 1880,
+   "category": "drinks",
+   "desc": {
+    "si": "ශරීර බර පාලනයට උපකාරී වන 100g පානය.",
+    "en": "100g drink that helps with weight control."
+   },
+   "image": "images/products/29_Slim_drink_100g.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "welpenela-60-pcs",
+   "name": "Welpenela 60 Pcs",
+   "price": 1030,
+   "category": "herbal",
+   "desc": {
+    "si": "වැල්පෙනෙල ඖෂධීය කැප්සියුල 60ක්.",
+    "en": "60 Welpenela herbal capsules."
+   },
+   "image": "images/products/30_Welpenela_60_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "heenbowitiya-60-pcs",
+   "name": "Heenbowitiya 60 Pcs",
+   "price": 1030,
+   "category": "herbal",
+   "desc": {
+    "si": "හීන්බෝවිටිය ඖෂධීය කැප්සියුල 60ක්.",
+    "en": "60 Heenbowitiya herbal capsules."
+   },
+   "image": "images/products/31_Heenbowitiya_60_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ashwaganda-60-pcs",
+   "name": "Ashwaganda 60 Pcs",
+   "price": 1320,
+   "category": "herbal",
+   "desc": {
+    "si": "අශ්වගන්ධ කැප්සියුල 60ක්.",
+    "en": "60 Ashwagandha capsules."
+   },
+   "image": "images/products/32_Ashwaganda_60_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "karavila-capsules-60pcs",
+   "name": "Karavila Capsules 60Pcs",
+   "price": 1190,
+   "category": "herbal",
+   "desc": {
+    "si": "කරවිල කැප්සියුල 60ක්.",
+    "en": "60 Karavila (bitter gourd) capsules."
+   },
+   "image": "images/products/33_Karavila_Capsules_60Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ruu-conditioner-200ml",
+   "name": "Ruu Conditioner 200ml",
+   "price": 960,
+   "category": "hair",
+   "desc": {
+    "si": "කෙස් මෘදු කර පහසුවෙන් පීරාගැනීමට 200ml කන්ඩිෂනර් එක.",
+    "en": "200ml conditioner that makes hair soft and easy to comb."
+   },
+   "image": "images/products/34_Ruu_Conditioner_200ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "hair-cream",
+   "name": "Hair cream",
+   "price": 1190,
+   "category": "hair",
+   "desc": {
+    "si": "කෙස් සැකසීමට සහ රැකවරණයට හෙයාර් ක්‍රීම් එක.",
+    "en": "Hair cream for styling and hair care."
+   },
+   "image": "images/products/35_Hair_cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glowing-drink-75g",
+   "name": "Glowing drink 75g",
+   "price": 1900,
+   "category": "drinks",
+   "desc": {
+    "si": "සමේ දීප්තිය සඳහා සකස් කළ 75g ග්ලෝවින් ඩ්‍රින්ක් එක.",
+    "en": "75g glowing drink made for glowing skin."
+   },
+   "image": "images/products/36_Glowing_drink_75g.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "uluhal-shampoo-200ml",
+   "name": "Uluhal Shampoo 200ml",
+   "price": 960,
+   "category": "hair",
+   "desc": {
+    "si": "උළුහාල් සංඝටක සහිත 200ml ෂැම්පූ එක.",
+    "en": "200ml shampoo with Uluhal (fenugreek) ingredients."
+   },
+   "image": "images/products/37_Uluhal_Shampoo_200ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "pomegranate-body-lotion-300ml",
+   "name": "Pomegranate body lotion 300ml",
+   "price": 1450,
+   "category": "skin",
+   "desc": {
+    "si": "දෙළුම් සාර සහිත 300ml බොඩි ලෝෂන් එක.",
+    "en": "300ml body lotion with pomegranate extract."
+   },
+   "image": "images/products/38_Pomegranate_body_lotion_300ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "dandruff-shampoo-200ml",
+   "name": "Dandruff shampoo 200ml",
+   "price": 980,
+   "category": "hair",
+   "desc": {
+    "si": "හිසේ ලෙල්ල (රැවි) පාලනයට 200ml ෂැම්පූ එක.",
+    "en": "200ml shampoo that helps to control dandruff."
+   },
+   "image": "images/products/39_Dandruff_shampoo_200ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "vip-range-full-set",
+   "name": "VIP Range Full set",
+   "price": 10000,
+   "category": "premium",
+   "desc": {
+    "si": "VIP ශ්‍රේණියේ සියලුම නිෂ්පාදන ඇතුළත් සම්පූර්ණ කට්ටලය.",
+    "en": "Complete set with all products of the VIP range."
+   },
+   "image": "images/products/40_VIP_Range_Full_set.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glutathione-body-cream",
+   "name": "Glutathione Body cream",
+   "price": 3200,
+   "category": "premium",
+   "desc": {
+    "si": "ග්ලූටතයෝන් අඩංගු ශරීරයට ගාන ක්‍රීම් එක.",
+    "en": "Body cream with Glutathione."
+   },
+   "image": "images/products/41_Glutathione_Body_cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glutathione-night-cream",
+   "name": "Glutathione Night cream",
+   "price": 3100,
+   "category": "premium",
+   "desc": {
+    "si": "ග්ලූටතයෝන් අඩංගු රාත්‍රී කාලයට පාවිච්චි කරන ක්‍රීම් එක.",
+    "en": "Night-time cream with Glutathione."
+   },
+   "image": "images/products/42_Glutathione_Night_cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "glutathione-day-cream",
+   "name": "Glutathione day cream",
+   "price": 3000,
+   "category": "premium",
+   "desc": {
+    "si": "ග්ලූටතයෝන් අඩංගු දහවල් කාලයට පාවිච්චි කරන ක්‍රීම් එක.",
+    "en": "Day-time cream with Glutathione."
+   },
+   "image": "images/products/43_Glutathione_day_cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "face-serum-vitamin-c",
+   "name": "Face serum vitamin C",
+   "price": 1300,
+   "category": "skin",
+   "desc": {
+    "si": "විටමින් C අඩංගු මුහුණට ගාන සීරම් එක.",
+    "en": "Face serum with Vitamin C."
+   },
+   "image": "images/products/44_Face_serum_vitamin_C.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "golden-face-wash",
+   "name": "Golden Face wash",
+   "price": 900,
+   "category": "skin",
+   "desc": {
+    "si": "ගෝල්ඩන් ෆේස් වොෂ් - මුහුණ පිරිසිදු කරගැනීමට.",
+    "en": "Golden face wash to clean your face."
+   },
+   "image": "images/products/45_Golden_Face_wash.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "lip-balm",
+   "name": "Lip balm",
+   "price": 1420,
+   "category": "skin",
+   "desc": {
+    "si": "තොල් මෘදුව තබාගැනීමට ලිප් බාම් එක.",
+    "en": "Lip balm to keep your lips soft."
+   },
+   "image": "images/products/46_Lip_balm.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ukunu-oil",
+   "name": "Ukunu oil",
+   "price": 495,
+   "category": "hair",
+   "desc": {
+    "si": "උකුණු ඉවත් කිරීමට භාවිතා කරන තෙල්.",
+    "en": "Oil used to remove head lice."
+   },
+   "image": "images/products/47_Ukunu_oil.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "gurmar",
+   "name": "Gurmar - මස්බැද්ද",
+   "price": 1250,
+   "category": "herbal",
+   "desc": {
+    "si": "මස්බැද්ද (Gurmar) ඖෂධීය කැප්සියුල.",
+    "en": "Gurmar (Masbedda) herbal capsules."
+   },
+   "image": "images/products/48_Gurmar.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ruu-ayurvedic-beauty-soap",
+   "name": "Ruu Ayurvedic Beauty Soap",
+   "price": 290,
+   "category": "soap",
+   "desc": {
+    "si": "රූ ආයුර්වේද බ්‍රීතී සබන් කැටය.",
+    "en": "Ruu Ayurvedic beauty soap bar."
+   },
+   "image": "images/products/49_Ruu_Ayurvedic_Beauty_Soap.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "moringa-capsules-30-pcs",
+   "name": "Moringa capsules 30 pcs",
+   "price": 1080,
+   "category": "supplements",
+   "desc": {
+    "si": "මුරුංගා කැප්සියුල 30ක් අඩංගු බෝතලය.",
+    "en": "Bottle with 30 Moringa capsules."
+   },
+   "image": "images/products/50_Moringa_capsules_30_pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "active-fairness-60-pcs",
+   "name": "Active fairness 60 Pcs",
+   "price": 3090,
+   "category": "supplements",
+   "desc": {
+    "si": "Active Fairness කැප්සියුල 60ක්.",
+    "en": "60 Active Fairness capsules."
+   },
+   "image": "images/products/51_Active_fairness_60_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "active-fairness-30-pcs",
+   "name": "Active fairness 30 Pcs",
+   "price": 1710,
+   "category": "supplements",
+   "desc": {
+    "si": "Active Fairness කැප්සියුල 30ක්.",
+    "en": "30 Active Fairness capsules."
+   },
+   "image": "images/products/52_Active_fairness_30_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "amla-piththa",
+   "name": "Amla piththa",
+   "price": 1370,
+   "category": "herbal",
+   "desc": {
+    "si": "ඇමලක (Amla) පිත්ත ඖෂධීය නිෂ්පාදනය.",
+    "en": "Amla Piththa herbal product."
+   },
+   "image": "images/products/53_Amla_piththa.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "iramusu-capsule",
+   "name": "Iramusu Capsule",
+   "price": 1120,
+   "category": "herbal",
+   "desc": {
+    "si": "ඉරමුසු ඖෂධීය කැප්සියුල.",
+    "en": "Iramusu herbal capsules."
+   },
+   "image": "images/products/54_Iramusu_Capsule.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "tea-tree-face-wash-120ml",
+   "name": "Tea tree face wash 120ml",
+   "price": 500,
+   "category": "skin",
+   "desc": {
+    "si": "ටී ට්‍රී සාර සහිත 120ml ෆේස් වොෂ් එක.",
+    "en": "120ml face wash with Tea Tree extract."
+   },
+   "image": "images/products/55_Tea_tree_face_wash_120ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "acne-face-wash-120ml",
+   "name": "Acne face wash-120ml",
+   "price": 480,
+   "category": "skin",
+   "desc": {
+    "si": "කුරුලෑ ඇති මුහුණු සඳහා 120ml ෆේස් වොෂ් එක.",
+    "en": "120ml face wash for acne-prone skin."
+   },
+   "image": "images/products/56_Acne_face_wash_120ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "delum-face-wash-120ml",
+   "name": "Delum face wash-120ml",
+   "price": 460,
+   "category": "skin",
+   "desc": {
+    "si": "ඩෙලුම් 120ml ෆේස් වොෂ් එක.",
+    "en": "120ml Delum face wash."
+   },
+   "image": "images/products/57_Delum_face_wash_120ml.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "hair-growth-capsules-30-pcs",
+   "name": "Hair Growth Capsules- 30 pcs",
+   "price": 1450,
+   "category": "supplements",
+   "desc": {
+    "si": "කෙස් වර්ධනයට උපකාරී කැප්සියුල 30ක්.",
+    "en": "30 capsules that support hair growth."
+   },
+   "image": "images/products/58_Hair_Growth_Capsules_30_pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "weight-gainer-90-pcs",
+   "name": "Weight gainer - 90 pcs",
+   "price": 2100,
+   "category": "supplements",
+   "desc": {
+    "si": "ශරීර බර වැඩි කරගැනීමට උදව්වන කැප්සියුල 90ක්.",
+    "en": "90 capsules that help to gain body weight."
+   },
+   "image": "images/products/59_Weight_gainer_90_pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "skin-glowing-pack",
+   "name": "Skin glowing pack",
+   "price": 1800,
+   "category": "offers",
+   "desc": {
+    "si": "සමේ දීප්තිය සඳහා නිෂ්පාදන ඇතුළත් පැකේජය.",
+    "en": "Package of products for glowing skin."
+   },
+   "image": "images/products/60_Skin_glowing_pack.jpg",
+   "badge": {
+    "si": "විශේෂ දීමනා",
+    "en": "Special offer"
+   },
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ayurvedic-fairness-body-lotion",
+   "name": "Ayurvedic Fairness Body Lotion",
+   "price": 520,
+   "category": "skin",
+   "desc": {
+    "si": "ආයුර්වේද ෆෙයාර්නස් බොඩි ලෝෂන් එක.",
+    "en": "Ayurvedic fairness body lotion."
+   },
+   "image": "images/products/61_Ayurvedic_Fairness_Body_Lotion.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "garcinia-capsules-30-capsules",
+   "name": "Garcinia capsules 30 capsules",
+   "price": 1100,
+   "category": "supplements",
+   "desc": {
+    "si": "ගොරකා (Garcinia) කැප්සියුල 30ක්.",
+    "en": "30 Garcinia capsules."
+   },
+   "image": "images/products/62_Garcinia_capsules_30_capsules.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "fairness-day-cream",
+   "name": "Fairness Day Cream",
+   "price": 640,
+   "category": "skin",
+   "desc": {
+    "si": "දහවල් කාලයට ගාන ෆෙයාර්නස් ක්‍රීම් එක.",
+    "en": "Fairness cream to use in the daytime."
+   },
+   "image": "images/products/63_Fairness_Day_Cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "fairness-night-cream",
+   "name": "Fairness Night Cream",
+   "price": 640,
+   "category": "skin",
+   "desc": {
+    "si": "රාත්‍රී කාලයට ගාන ෆෙයාර්නස් ක්‍රීම් එක.",
+    "en": "Fairness cream to use at night."
+   },
+   "image": "images/products/64_Fairness_Night_Cream.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "sandi-niroga",
+   "name": "Sandi Niroga",
+   "price": 1390,
+   "category": "herbal",
+   "desc": {
+    "si": "සන්ධි නිරෝගා ඖෂධීය නිෂ්පාදනය.",
+    "en": "Sandi Niroga herbal product."
+   },
+   "image": "images/products/65_Sandi_Niroga.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "carrot-capsules-60-pcs",
+   "name": "Carrot Capsules 60 Pcs",
+   "price": 1850,
+   "category": "supplements",
+   "desc": {
+    "si": "කැරට් කැප්සියුල 60ක්.",
+    "en": "60 carrot capsules."
+   },
+   "image": "images/products/66_Carrot_Capsules_60_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ruu-kesha-hair-oil",
+   "name": "Ruu Kesha Hair Oil",
+   "price": 890,
+   "category": "hair",
+   "desc": {
+    "si": "රූ කේෂා කෙස් තෙල්.",
+    "en": "Ruu Kesha hair oil."
+   },
+   "image": "images/products/67_Ruu_Kesha_Hair_Oil.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "canereed-thebu",
+   "name": "Canereed ( Thebu)",
+   "price": 1290,
+   "category": "herbal",
+   "desc": {
+    "si": "තෙබු (Canereed) ඖෂධීය නිෂ්පාදනය.",
+    "en": "Canereed (Thebu) herbal product."
+   },
+   "image": "images/products/68_Canereed_Thebu.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "carrot-capsules-30-pcs",
+   "name": "Carrot Capsules 30 Pcs",
+   "price": 1150,
+   "category": "supplements",
+   "desc": {
+    "si": "කැරට් කැප්සියුල 30ක්.",
+    "en": "30 carrot capsules."
+   },
+   "image": "images/products/69_Carrot_Capsules_30_Pcs.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ceylon-cinnamon-capsule-30-pcs",
+   "name": "CEYLON CINNAMON CAPSULE - 30 PCS",
+   "price": 980,
+   "category": "supplements",
+   "desc": {
+    "si": "සිලෝන් කුරුඳු කැප්සියුල 30ක්.",
+    "en": "30 Ceylon cinnamon capsules."
+   },
+   "image": "images/products/70_CEYLON_CINNAMON_CAPSULE_30_PCS.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "ceylon-cinnamon-capsule-60-pcs",
+   "name": "CEYLON CINNAMON CAPSULE - 60 PCS",
+   "price": 1620,
+   "category": "supplements",
+   "desc": {
+    "si": "සිලෝන් කුරුඳු කැප්සියුල 60ක්.",
+    "en": "60 Ceylon cinnamon capsules."
+   },
+   "image": "images/products/71_CEYLON_CINNAMON_CAPSULE_60_PCS.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "green-coffee-bean",
+   "name": "Green Coffee Bean",
+   "price": 990,
+   "category": "drinks",
+   "desc": {
+    "si": "ග්‍රීන් කෝපි (Green Coffee Bean) නිෂ්පාදනය.",
+    "en": "Green Coffee Bean product."
+   },
+   "image": "images/products/72_Green_Coffee_Bean.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "growth-hair-serum",
+   "name": "Growth hair Serum",
+   "price": 990,
+   "category": "hair",
+   "desc": {
+    "si": "කෙස් රැකවරණය සඳහා හෙයාර් සීරම් එක.",
+    "en": "Hair serum for hair care."
+   },
+   "image": "images/products/73_Growth_hair_Serum.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "turmeric-capsule-30-pcs",
+   "name": "TURMERIC CAPSULE - 30 PCS",
+   "price": 1000,
+   "category": "supplements",
+   "desc": {
+    "si": "කහ (Turmeric) කැප්සියුල 30ක්.",
+    "en": "30 Turmeric capsules."
+   },
+   "image": "images/products/74_TURMERIC_CAPSULE_30_PCS.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "venivel-fairness-capsule-30-pcs",
+   "name": "VENIVEL FAIRNESS CAPSULE - 30 PCS",
+   "price": 990,
+   "category": "supplements",
+   "desc": {
+    "si": "වේණිවැල් ෆෙයාර්නස් කැප්සියුල 30ක්.",
+    "en": "30 Venivel Fairness capsules."
+   },
+   "image": "images/products/75_VENIVEL_FAIRNESS_CAPSULE_30_PCS.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  },
+  {
+   "id": "venivel-fairness-capsule-60-pcs",
+   "name": "VENIVEL FAIRNESS CAPSULE - 60 PCS",
+   "price": 1640,
+   "category": "supplements",
+   "desc": {
+    "si": "වේණිවැල් ෆෙයාර්නස් කැප්සියුල 60ක්.",
+    "en": "60 Venivel Fairness capsules."
+   },
+   "image": "images/products/76_VENIVEL_FAIRNESS_CAPSULE_60_PCS.jpg",
+   "badge": null,
+   "oldPrice": null,
+   "inStock": true,
+   "hidden": false,
+   "feedbacks": []
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+  "brand": {
+    "name": "Ruu Ceylon",
+    "tagline": {
+      "si": "ස්වභාවික ආයුර්වේද සෞඛ්‍ය හා රූපලාවණ්‍ය නිෂ්පාදන",
+      "en": "Natural ayurvedic health and beauty products"
+    },
+    "motto": {
+      "si": "ස්වභාවයෙන් ලැබෙන රූපලාවණ්‍යය",
+      "en": "Beauty with Nature"
+    }
+  },
+  "contact": {
+    "phone": "0712171646",
+    "whatsapp": "94712171646",
+    "email": "",
+    "website": "ruuceylon.lk",
+    "shopUrl": "https://seller.ruuceylon.lk/",
+    "address": {
+      "si": "",
+      "en": ""
+    },
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "slides": {
+    "title": {
+      "si": "විශේෂ දීමනා",
+      "en": "Special offers"
+    },
+    "intervalSeconds": 5,
+    "items": [
+      {
+        "image": "images/slides/01_Delum_Skin_Glow_Pack.jpg",
+        "title": {
+          "si": "ඩෙලුම් ස්කින් ග්ලෝ පැකේජය",
+          "en": "Delum Skin Glow Pack"
+        },
+        "caption": {
+          "si": "සමට දීප්තිය ලබා දෙන විශේෂ දීමනා පැකේජය",
+          "en": "A special pack for glowing skin"
+        },
+        "product": "delum-skin-glow-pack",
+        "label": {
+          "si": "දීමනා",
+          "en": "Offer"
+        }
+      },
+      {
+        "image": "images/slides/03_Collagen_offer.jpg",
+        "title": {
+          "si": "කොලජන් දීමනාව",
+          "en": "Collagen offer"
+        },
+        "caption": {
+          "si": "කොලජන් නිෂ්පාදන ඇතුළත් විශේෂ පැකේජය",
+          "en": "Special package with collagen products"
+        },
+        "product": "collagen-offer",
+        "label": {
+          "si": "දීමනා",
+          "en": "Offer"
+        }
+      },
+      {
+        "image": "images/slides/04_Ruuceylon_carrot_capsule_offer.jpg",
+        "title": {
+          "si": "කැරට් කැප්සියුල් දීමනාව",
+          "en": "Carrot capsule offer"
+        },
+        "caption": {
+          "si": "කැරට් කැප්සියුල් ඇතුළත් විශේෂ පැකේජය",
+          "en": "Special package with carrot capsules"
+        },
+        "product": "ruuceylon-carrot-capsule-offer",
+        "label": {
+          "si": "දීමනා",
+          "en": "Offer"
+        }
+      },
+      {
+        "image": "images/slides/09_Cinnamon_Capsules_Offer.jpg",
+        "title": {
+          "si": "කුරුඳු කැප්සියුල් දීමනාව",
+          "en": "Cinnamon capsule offer"
+        },
+        "caption": {
+          "si": "සිලෝන් කුරුඳු කැප්සියුල් විශේෂ මිලට",
+          "en": "Ceylon cinnamon capsules at a special price"
+        },
+        "product": "cinnamon-capsules-offer",
+        "label": {
+          "si": "දීමනා",
+          "en": "Offer"
+        }
+      },
+      {
+        "image": "images/slides/10_Vitamin_C_Offer.jpg",
+        "title": {
+          "si": "විටමින් C දීමනාව",
+          "en": "Vitamin C offer"
+        },
+        "caption": {
+          "si": "විටමින් C නිෂ්පාදන ඇතුළත් විශේෂ පැකේජය",
+          "en": "Special package with Vitamin C products"
+        },
+        "product": "vitamin-c-offer",
+        "label": {
+          "si": "දීමනා",
+          "en": "Offer"
+        }
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "offers",
+      "si": "දීමනා පැකේජ",
+      "en": "Offer packs"
+    },
+    {
+      "id": "supplements",
+      "si": "කැප්සියුල් සහ සප්ලිමන්ට්",
+      "en": "Capsules and supplements"
+    },
+    {
+      "id": "herbal",
+      "si": "ආයුර්වේද ඖෂධ",
+      "en": "Ayurvedic herbal"
+    },
+    {
+      "id": "skin",
+      "si": "සම සහ ශරීර රැකවරණය",
+      "en": "Skin and body care"
+    },
+    {
+      "id": "hair",
+      "si": "කෙස් රැකවරණය",
+      "en": "Hair care"
+    },
+    {
+      "id": "drinks",
+      "si": "පාන වර්ග",
+      "en": "Drinks"
+    },
+    {
+      "id": "soap",
+      "si": "සබන්",
+      "en": "Soap"
+    },
+    {
+      "id": "premium",
+      "si": "ප්‍රීමියම් (ග්ලූටතයෝන් / VIP)",
+      "en": "Premium (Glutathione / VIP)"
+    }
+  ],
+  "about": {
+    "title": {
+      "si": "අප ගැන",
+      "en": "About us"
+    },
+    "text": {
+      "si": "රූ සිලෝන් යනු ශ්‍රී ලංකාවේ නිෂ්පාදිත ආයුර්වේද සෞඛ්‍ය සහ රූපලාවණ්‍ය නිෂ්පාදන ලබා දෙන ව්‍යාපාරයකි. කැප්සියුල්, ක්‍රීම්, ලෝෂන්, කෙස් රැකවරණ නිෂ්පාදන සහ විශේෂ දීමනා පැකේජ අපෙන් ලබාගත හැක.",
+      "en": "Ruu Ceylon offers ayurvedic health and beauty products made in Sri Lanka. You can get capsules, creams, lotions, hair care products and special offer packs from us."
+    }
+  },
+  "footerNote": {
+    "si": "ඖෂධීය නිෂ්පාදන භාවිතයට පෙර වෛද්‍ය උපදෙස් ලබාගන්න.",
+    "en": "Please get medical advice before using any medicinal product."
+  },
+  "ui": {
+    "navProducts": {
+      "si": "නිෂ්පාදන",
+      "en": "Products"
+    },
+    "navReviews": {
+      "si": "අදහස්",
+      "en": "Reviews"
+    },
+    "navAbout": {
+      "si": "අප ගැන",
+      "en": "About"
+    },
+    "navContact": {
+      "si": "සම්බන්ධ වන්න",
+      "en": "Contact"
+    },
+    "productsTitle": {
+      "si": "අපේ නිෂ්පාදන",
+      "en": "Our products"
+    },
+    "search": {
+      "si": "නිෂ්පාදනයක් සොයන්න",
+      "en": "Search a product"
+    },
+    "all": {
+      "si": "සියල්ල",
+      "en": "All"
+    },
+    "sort": {
+      "si": "පිළිවෙළ",
+      "en": "Sort"
+    },
+    "sortDefault": {
+      "si": "සාමාන්‍ය",
+      "en": "Default"
+    },
+    "sortLow": {
+      "si": "මිල අඩු සිට වැඩි",
+      "en": "Price: low to high"
+    },
+    "sortHigh": {
+      "si": "මිල වැඩි සිට අඩු",
+      "en": "Price: high to low"
+    },
+    "count": {
+      "si": "නිෂ්පාදන",
+      "en": "products"
+    },
+    "noResults": {
+      "si": "කිසිවක් හමු වුණේ නැහැ. වෙනත් වචනයකින් සොයා බලන්න.",
+      "en": "Nothing found. Try a different word."
+    },
+    "price": {
+      "si": "මිල",
+      "en": "Price"
+    },
+    "rs": {
+      "si": "රු.",
+      "en": "Rs."
+    },
+    "view": {
+      "si": "විස්තර බලන්න",
+      "en": "View details"
+    },
+    "order": {
+      "si": "WhatsApp එකෙන් ඇණවුම් කරන්න",
+      "en": "Order on WhatsApp"
+    },
+    "call": {
+      "si": "අමතන්න",
+      "en": "Call us"
+    },
+    "buyOnShop": {
+      "si": "අපේ shop එකෙන් ගන්න",
+      "en": "Buy from our shop"
+    },
+    "orderMessage": {
+      "si": "ආයුබෝවන්, මම මේ නිෂ්පාදනය ඇණවුම් කරන්න කැමතියි:",
+      "en": "Hello, I would like to order this product:"
+    },
+    "outOfStock": {
+      "si": "දැනට නැහැ",
+      "en": "Out of stock"
+    },
+    "close": {
+      "si": "වසන්න",
+      "en": "Close"
+    },
+    "prev": {
+      "si": "කලින් එක",
+      "en": "Previous"
+    },
+    "next": {
+      "si": "ඊළඟ එක",
+      "en": "Next"
+    },
+    "slide": {
+      "si": "ස්ලයිඩය",
+      "en": "Slide"
+    },
+    "ownerFeedback": {
+      "si": "ගනුදෙනුකරුවන්ගේ අදහස්",
+      "en": "Customer feedback"
+    },
+    "visitorComments": {
+      "si": "අදහස් සහ ප්‍රතිචාර",
+      "en": "Comments"
+    },
+    "noComments": {
+      "si": "තවම අදහස් නැහැ. පළමු අදහස ඔබෙන් වේවා!",
+      "en": "No comments yet. Be the first to write one!"
+    },
+    "reviewsTitle": {
+      "si": "ඔබේ අදහස් අපට වැදගත්",
+      "en": "Your opinion matters to us"
+    },
+    "reviewsIntro": {
+      "si": "නිෂ්පාදනයක් භාවිතා කළා නම්, ඔබේ අත්දැකීම අනිත් අයට කියන්න.",
+      "en": "If you have used a product, tell others about your experience."
+    },
+    "formProduct": {
+      "si": "නිෂ්පාදනය",
+      "en": "Product"
+    },
+    "formName": {
+      "si": "ඔබේ නම",
+      "en": "Your name"
+    },
+    "formRating": {
+      "si": "තරු ලකුණු",
+      "en": "Rating"
+    },
+    "formText": {
+      "si": "ඔබේ අදහස මෙතැන ලියන්න",
+      "en": "Write your comment here"
+    },
+    "formSend": {
+      "si": "අදහස යවන්න",
+      "en": "Send comment"
+    },
+    "formSending": {
+      "si": "යවමින්...",
+      "en": "Sending..."
+    },
+    "formThanksPending": {
+      "si": "ස්තූතියි! ඔබේ අදහස ලැබුණා. පරීක්ෂා කළ පසු පෙන්වනවා.",
+      "en": "Thank you! We got your comment. It will show after we check it."
+    },
+    "formThanksLive": {
+      "si": "ස්තූතියි! ඔබේ අදහස එකතු වුණා.",
+      "en": "Thank you! Your comment was added."
+    },
+    "formThanksLocal": {
+      "si": "ස්තූතියි! (මෙම උපාංගයේ පමණක් සුරැකුණා.)",
+      "en": "Thank you! (Saved on this device only.)"
+    },
+    "errName": {
+      "si": "කරුණාකර ඔබේ නම ලියන්න.",
+      "en": "Please write your name."
+    },
+    "errRating": {
+      "si": "කරුණාකර තරු ලකුණු තෝරන්න.",
+      "en": "Please choose a star rating."
+    },
+    "errText": {
+      "si": "කරුණාකර අදහස ලියන්න (අකුරු 5ක් හෝ වැඩි).",
+      "en": "Please write a comment (at least 5 characters)."
+    },
+    "errTooMany": {
+      "si": "ඉතා වැඩි වාර ගණනක් යැව්වා. පසුව නැවත උත්සාහ කරන්න.",
+      "en": "Too many comments sent. Please try again later."
+    },
+    "errGeneric": {
+      "si": "යැවීමට නොහැකි වුණා. නැවත උත්සාහ කරන්න.",
+      "en": "Could not send. Please try again."
+    },
+    "recentComments": {
+      "si": "අලුත්ම අදහස්",
+      "en": "Latest comments"
+    },
+    "stars": {
+      "si": "තරු",
+      "en": "stars"
+    },
+    "contactTitle": {
+      "si": "අප හා සම්බන්ධ වන්න",
+      "en": "Get in touch"
+    },
+    "phone": {
+      "si": "දුරකථන",
+      "en": "Phone"
+    },
+    "whatsapp": {
+      "si": "WhatsApp",
+      "en": "WhatsApp"
+    },
+    "emailLabel": {
+      "si": "ඊමේල්",
+      "en": "Email"
+    },
+    "addressLabel": {
+      "si": "ලිපිනය",
+      "en": "Address"
+    },
+    "visitShop": {
+      "si": "Online shop එක බලන්න",
+      "en": "Visit our online shop"
+    },
+    "rights": {
+      "si": "සියලු හිමිකම් ඇවිරිණි.",
+      "en": "All rights reserved."
+    },
+    "langSi": {
+      "si": "සිංහල",
+      "en": "සිංහල"
+    },
+    "langEn": {
+      "si": "English",
+      "en": "English"
+    },
+    "share": {
+      "si": "link එක copy කරන්න",
+      "en": "Copy link"
+    },
+    "copied": {
+      "si": "Copy වුණා!",
+      "en": "Copied!"
+    },
+    "writeComment": {
+      "si": "ඔබේ අදහස ලියන්න",
+      "en": "Write a comment"
+    }
+  }
+}
