@@ -34,8 +34,8 @@
     "items": [
 {
   "image": "images/awards/award-1.jpg",
-  "title": { "si": "සම්මානයේ නම", "en": "Award name" },
-  "caption": { "si": "කෙටි විස්තරයක්", "en": "Short note" },
+  "title": { "si": "වසරේ විශිෂ්ටතම රූපවලාන්‍ය සන්නාමය 2026", "en": "ICONIC BRAND OF THE YEAR 2026" },
+  "caption": { "si": "මෙවරත් වසරේ විශිෂ්ටතම රූපවලාන්‍ය සන්නාමය ලෙස අපව මෙවරත් ඔසවා තැබූ ඔබට ස්තූතියි !", "en": "" },
   "label": { "si": "සම්මානය", "en": "Award" }
 },
       {
