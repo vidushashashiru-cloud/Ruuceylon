@@ -20,6 +20,7 @@ async function cmd(...args) {
 }
 
 const KEY = 'rc:comments';
+const IMG = 'rc:img:';
 
 async function allComments() {
   const flat = (await cmd('HGETALL', KEY)) || [];
@@ -41,4 +42,4 @@ async function limited(prefix, req, max, seconds) {
   return n > max;
 }
 
-module.exports = { configured, cmd, KEY, allComments, limited, hash };
+module.exports = { configured, cmd, KEY, IMG, allComments, limited, hash };
