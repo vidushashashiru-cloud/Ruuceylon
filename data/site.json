@@ -382,6 +382,22 @@
     "writeComment": {
       "si": "ඔබේ අදහස ලියන්න",
       "en": "Write a comment"
+    },
+    "formPhoto": {
+      "si": "ඡායාරූපයක් (අවශ්‍ය නම්)",
+      "en": "Photo (optional)"
+    },
+    "formPhotoBtn": {
+      "si": "📷 ඡායාරූපයක් තෝරන්න",
+      "en": "📷 Choose a photo"
+    },
+    "formPhotoRemove": {
+      "si": "ඉවත් කරන්න",
+      "en": "Remove"
+    },
+    "errPhoto": {
+      "si": "මෙම ඡායාරූපය භාවිතා කළ නොහැක. වෙනත් JPG/PNG ඡායාරූපයක් උත්සාහ කරන්න.",
+      "en": "This photo can't be used. Please try another JPG/PNG photo."
     }
   }
 }
