@@ -59,7 +59,7 @@ module.exports = async (req, res) => {
       if (image && (image.length > IMG_MAX || !IMG_RE.test(image) || !image.startsWith('data:image/jpeg;base64,/9j/'))) {
         return res.status(400).json({ error: 'bad_image' });
       }
-      if (await store.limited('post', req, 5, 3600)) return res.status(429).json({ error: 'too_many' });
+      if (await store.limited('post', req,10, 3600)) return res.status(429).json({ error: 'too_many' });
 
       const status = process.env.AUTO_APPROVE === 'true' ? 'approved' : 'pending';
       const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
