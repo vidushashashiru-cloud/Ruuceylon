@@ -317,7 +317,30 @@
     if (c.rating) head.append(starsEl(c.rating));
     if (c.productName) head.append(el('button', { class: 'c-prod', type: 'button', onclick: () => openProduct(c.product) }, c.productName));
     if (c.date) head.append(el('span', { class: 'c-date' }, dateText(c.date)));
-    return el('div', { class: 'comment' + (owner ? ' owner' : '') }, head, el('p', {}, typeof c.text === 'string' ? c.text : L(c.text)));
+    const photo = c.img && c.id ? el('img', { class: 'c-img', src: `/api/image?id=${encodeURIComponent(c.id)}`, alt: '', loading: 'lazy', onclick: () => window.open(`/api/image?id=${encodeURIComponent(c.id)}`, '_blank') }) : null;
+    return el('div', { class: 'comment' + (owner ? ' owner' : '') }, head, el('p', {}, typeof c.text === 'string' ? c.text : L(c.text)), photo);
+  }
+
+  /* ---------- photo: shrink in the browser so uploads stay small and fast ---------- */
+  function shrinkImage(file, max = 1000) {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => {
+        URL.revokeObjectURL(url);
+        const k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas');
+        c.width = Math.max(1, Math.round(img.width * k)); c.height = Math.max(1, Math.round(img.height * k));
+        const g = c.getContext('2d');
+        g.fillStyle = '#fff'; g.fillRect(0, 0, c.width, c.height);
+        g.drawImage(img, 0, 0, c.width, c.height);
+        let q = 0.75, out = c.toDataURL('image/jpeg', q);
+        while (out.length > 400000 && q > 0.4) { q -= 0.1; out = c.toDataURL('image/jpeg', q); }
+        out.length > 450000 ? reject(new Error('big')) : resolve(out);
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('bad')); };
+      img.src = url;
+    });
   }
 
   /* ---------- comment form (used in dialog and in the Reviews section) ---------- */
@@ -332,6 +355,22 @@
     const msg = el('div', { role: 'status' });
     const btn = el('button', { class: 'btn', type: 'submit' }, u('formSend'));
 
+    let photo = '';
+    const file = el('input', { type: 'file', id: `${uid}f`, accept: 'image/*' });
+    const prevImg = el('img', { alt: '' });
+    const prevDel = el('button', { type: 'button' }, u('formPhotoRemove'));
+    const prev = el('div', { class: 'photo-prev', hidden: true }, prevImg, prevDel);
+    const clearPhoto = () => { photo = ''; file.value = ''; prev.hidden = true; prevImg.removeAttribute('src'); };
+    prevDel.addEventListener('click', clearPhoto);
+    file.addEventListener('change', async () => {
+      const f = file.files && file.files[0];
+      if (!f) return clearPhoto();
+      try { photo = await shrinkImage(f); prevImg.src = photo; prev.hidden = false; msg.className = ''; msg.textContent = ''; }
+      catch { clearPhoto(); say('errPhoto'); }
+    });
+    const photoField = el('div', { class: 'photo-pick' }, el('span', {}, u('formPhoto')), file,
+      el('label', { class: 'photo-btn', for: `${uid}f` }, u('formPhotoBtn')), prev);
+
     const pick = el('div', { class: 'stars-pick' });
     for (let i = 5; i >= 1; i--) {
       pick.append(
@@ -345,6 +384,7 @@
       el('label', { class: 'field', for: `${uid}n` }, el('span', {}, u('formName')), name),
       rating,
       el('label', { class: 'field', for: `${uid}t` }, el('span', {}, u('formText')), text),
+      photoField,
       hp, btn, msg);
 
     const say = (k, ok) => { msg.className = `form-msg ${ok ? 'ok' : 'bad'}`; msg.textContent = u(k); };
@@ -356,13 +396,13 @@
       if (text.value.trim().length < 5) return say('errText');
       btn.disabled = true; btn.textContent = u('formSending'); msg.className = ''; msg.textContent = '';
       try {
-        const mode = await postComment({ product: productId || sel.value, name: name.value.trim(), rating: r, text: text.value.trim(), website: hp.value });
+        const mode = await postComment({ product: productId || sel.value, name: name.value.trim(), rating: r, text: text.value.trim(), website: hp.value, image: photo });
         say(mode === 'pending' ? 'formThanksPending' : mode === 'local' ? 'formThanksLocal' : 'formThanksLive', true);
-        form.reset();
+        form.reset(); clearPhoto();
         if (onSent) onSent();
         loadRecent();
       } catch (err) {
-        say(err.message === '429' ? 'errTooMany' : 'errGeneric');
+        say(err.message === '429' ? 'errTooMany' : err.message === '400' ? 'errPhoto' : 'errGeneric');
       } finally { btn.disabled = false; btn.textContent = u('formSend'); }
     });
     return form;
