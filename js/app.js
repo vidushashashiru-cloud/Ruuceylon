@@ -19,6 +19,9 @@
   const u = (k) => L(S.site.ui[k]);
   const fmt = (n) => `${u('rs')} ${Number(n).toLocaleString('en-US')}`;
 
+  // wa.me needs digits only with the country code: "076 280 6860" -> "94762806860"
+  const waNum = (n) => { const d = String(n || '').replace(/\D/g, ''); return d.startsWith('94') ? d : d.replace(/^0+/, '94'); };
+
   function el(tag, attrs = {}, ...kids) {
     const n = document.createElement(tag);
     for (const [k, v] of Object.entries(attrs)) {
@@ -232,7 +235,7 @@
     ul.replaceChildren();
     const row = (label, node) => ul.append(el('li', {}, el('b', {}, label), node));
     if (c.phone) row(u('phone'), el('a', { href: `tel:${c.phone}` }, c.phone));
-    if (c.whatsapp) row(u('whatsapp'), el('a', { href: `https://wa.me/${c.whatsapp}`, target: '_blank', rel: 'noopener' }, c.phone || c.whatsapp));
+    if (c.whatsapp) row(u('whatsapp'), el('a', { href: `https://wa.me/${waNum(c.whatsapp)}`, target: '_blank', rel: 'noopener' }, c.phone || c.whatsapp));
     if (c.email) row(u('emailLabel'), el('a', { href: `mailto:${c.email}` }, c.email));
     const addr = L(c.address);
     if (addr) row(u('addressLabel'), addr);
@@ -264,7 +267,7 @@
     const msg = `${u('orderMessage')}\n${p.name} - ${fmt(p.price)}\n${shareUrl(p.id)}`;
 
     const actions = el('div', { class: 'pm-actions' });
-    if (c.whatsapp) actions.append(el('a', { class: 'btn wa', href: `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(msg)}`, target: '_blank', rel: 'noopener', html: ICON.chat + `<span>${u('order')}</span>` }));
+    if (c.whatsapp) actions.append(el('a', { class: 'btn wa', href: `https://wa.me/${waNum(c.whatsapp)}?text=${encodeURIComponent(msg)}`, target: '_blank', rel: 'noopener', html: ICON.chat + `<span>${u('order')}</span>` }));
     if (c.phone) actions.append(el('a', { class: 'btn alt', href: `tel:${c.phone}`, html: ICON.phone + `<span>${u('call')} ${c.phone}</span>` }));
     if (c.shopUrl) actions.append(el('a', { class: 'btn alt', href: c.shopUrl, target: '_blank', rel: 'noopener', html: ICON.bag + `<span>${u('buyOnShop')}</span>` }));
     const copyBtn = el('button', { class: 'btn alt', type: 'button', html: ICON.link + `<span>${u('share')}</span>` });
